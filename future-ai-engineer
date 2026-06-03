@@ -1,0 +1,172 @@
+index.html<!DOCTYPE html>
+<html>
+<body>
+<h1>Hello Adarsh!</h1>
+<p>My first website.</p>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adarsh Bharti</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f4f7fc;
+}
+
+header{
+background:#1e3a8a;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+header h1{
+font-size:40px;
+}
+
+section{
+max-width:900px;
+margin:20px auto;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+margin:20px 0;
+border-radius:12px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h2{
+color:#1e3a8a;
+margin-bottom:10px;
+}
+
+button{
+background:#1e3a8a;
+color:white;
+padding:10px 20px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+transform:scale(1.05);
+}
+
+footer{
+background:#1e3a8a;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Adarsh Bharti</h1>
+<p>Class 10 Student | Future AI Engineer 🚀</p>
+</header>
+
+<section>
+
+<div class="card">
+<h2>About Me</h2>
+<p>
+Hello! My name is Adarsh Bharti.
+I am passionate about Artificial Intelligence,
+Mathematics, Engineering and Technology.
+</p>
+</div>
+
+<div class="card">
+<h2>My Goals</h2>
+<ul>
+<li>Learn Programming</li>
+<li>Build AI Projects</li>
+<li>Crack JEE</li>
+<li>Become an AI Engineer</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Skills I Want To Learn</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>Python</li>
+<li>Artificial Intelligence</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Click Me</h2>
+
+<button onclick="showMessage()">
+My Dream
+</button>
+
+<p id="message"></p>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 Adarsh Bharti
+</footer>
+
+<script>
+function showMessage(){
+document.getElementById("message").innerHTML =
+"🚀 I will become an AI Engineer!";
+}
+</script>
+
+</body>
+</html><div class="card">
+<h2>About Adarsh</h2>
+
+<p>
+Hello! My name is Adarsh Bharti.
+I am a Class 10 student from India with a strong interest in
+Artificial Intelligence, Programming, Mathematics and Engineering.
+</p>
+
+<p>
+My goal is to learn modern technology, build useful projects,
+crack competitive exams and become a skilled AI Engineer in the future.
+</p>
+
+<p>
+Currently I am learning web development, coding and problem solving.
+This website is one of my first projects on my journey toward technology and innovation.
+</p>
+
+</div><div class="card">
+<h2>My Mission</h2>
+
+<p>
+"Every day I learn something new.
+Small efforts today will create a better future tomorrow.
+My dream is to use technology and AI to solve real-world problems."
+</p>
+
+</div>
